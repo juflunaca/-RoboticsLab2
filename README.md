@@ -57,7 +57,9 @@ Y finalmente podemos detener el nodo maestro desde matlab:
 
 ## 3. Conexión de ROS con Python
 
-Se creo un script de Python llamado *myTeleopKey.py* de la forma estipulada en la guia para controlar el movimiento de la tortuga en *turtlesim* con el teclado. Este script se escribio dividiendo las tareas a realizar en diferentes funciones las cuales estan comentadas adecuadamente y pueden consultarse con mas detalle en el codigo base. Las funciones implementadas son:
+Se creo un script de Python llamado *myTeleopKey.py* de la forma estipulada en la guia para controlar el movimiento de la tortuga en *turtlesim* con el teclado.
+![Inculsion del script en catkin_ws](imagenes/imagen9.png)
+Este script se escribio dividiendo las tareas a realizar en diferentes funciones las cuales estan comentadas adecuadamente y pueden consultarse con mas detalle en el codigo base. Las funciones implementadas son:
 
 * La tortuga se mueve hacia adelante y hacia atrás con las teclas W y S.
 * La tortuga gira en sentido horario y antihorario con las teclas D y A, respectivamente.
@@ -65,8 +67,20 @@ Se creo un script de Python llamado *myTeleopKey.py* de la forma estipulada en l
 * La tortuga da un giro de 180° con la tecla ESPACIO.
   
 A continuacion podemos ver algunas capturas del funcionamiento del script:
+Tortuga después de oprimir la tecla W:
+![Fotos del script en funcionamiento](imagenes/imagen10.png)
+Tortuga después de oprimir la tecla S:
+![Fotos del script en funcionamiento](imagenes/imagen11.png)
+Tortuga después de oprimir la tecla D y W:
+![Fotos del script en funcionamiento](imagenes/imagen12.png)
+Tortuga después de oprimir la tecla R: (Posición inicial)
+![Fotos del script en funcionamiento](imagenes/imagen13.png)
+Tortuga después de oprimir la tecla ESPACIO:
+![Fotos del script en funcionamiento](imagenes/imagen14.png)
+Tortuga después de oprimir la tecla ESPACIO nuevamente:
+![Fotos del script en funcionamiento](imagenes/imagen15.png)
 
-![Fotos del script en funcionamiento](imagenes/imagen9.png)
+
 ## Conclusiones
 * ROS funciona de manera independiente a Matlab o Python, los scripts desarrollados en estos programas solo nos permiten comunicarnos con los nodos.
 * Eeeeehhhh...

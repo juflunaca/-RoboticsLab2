@@ -67,6 +67,7 @@ Este script se escribio dividiendo las tareas a realizar en diferentes funciones
 * La tortuga da un giro de 180° con la tecla ESPACIO.
   
 A continuacion podemos ver algunas capturas del funcionamiento del script:
+
 Tortuga después de oprimir la tecla W:
 ![Fotos del script en funcionamiento](imagenes/imagen10.png)
 Tortuga después de oprimir la tecla S:

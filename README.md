@@ -27,15 +27,15 @@ Este repositorio contiene las memorias y programas desarrollados durante la segu
 
 En esta seccion del laboratorio se empezo abriendo dos terminales, uno para el nodo maestro de ROS y otro para iniciar el nodo *turtlesim_node* del paquete *turtlesim*, como podemos ver en la siguiente imagen:
 
-![Terminales del nodo maestro y turtlesim_node](imagenes/imagen1.jpg "Terminales del nodo maestro y turtlesim_node")
+![Terminales del nodo maestro y turtlesim_node](imagenes/imagen1.png "Terminales del nodo maestro y turtlesim_node")
 
 Posteriormente en Matlab, nos conectamos con el nodo maestro con el comando rosinit:
 
-![Captura del terminal de Matlab]()
+![Captura del terminal de Matlab]()imagenes/imagen2.png
 
 Y procedemos a hacer las pruebas de envio de mensajes:
 
-![Captura del codigo y terminal de Matlab]()
+![Captura del codigo y terminal de Matlab](imagenes/imagen2.png)
 
 Este mensaje en particular genera un movimiento de la tortuga en la ventana de *turtlesim*:
 
@@ -43,17 +43,17 @@ Este mensaje en particular genera un movimiento de la tortuga en la ventana de *
 
 Tambien se realizaron las pruebas del suscriptor en Matlab, que nos permite recibir los mensajes de cierto tipo que se envian a un topico, en este caso el topico es */turtle1/pose* y el tipo de mensaje es *turtlesim/Pose*.
 
-![Captura del terminal de Matlab con los mensajes]()
+![Captura del terminal de Matlab con los mensajes](imagenes/imagen3.png)
 
 Para el ultimo ejercicio en Matlab, creamos otro publicador como el visto anteriormente, pero esta vez asignamos un valor a todos los atributos del mensaje *geometry_msgs/Twist* antes de enviarlo, lo cual nos permite cambiar la pose de la tortuga con un solo mensaje.
 
-![Captura del codigo y terminal de Matlab]()
+![Captura del codigo y terminal de Matlab](imagenes/imagen4.png)
 
-![Captura del movimiento en turtlesim]()
+![Captura del movimiento en turtlesim](imagenes/imagen5.png)
 
 Y finalmente podemos detener el nodo maestro desde matlab:
 
-![Captura del codigo y terminal]()
+![Captura del codigo y terminal](imagenes/imagen6.png)
 
 ## 3. Conexión de ROS con Python
 
@@ -66,7 +66,7 @@ Se creo un script de Python llamado *myTeleopKey.py* de la forma estipulada en l
   
 A continuacion podemos ver algunas capturas del funcionamiento del script:
 
-![Fotos del script en funcionamiento]()
+![Fotos del script en funcionamiento](imagenes/imagen7.png)
 ## Conclusiones
 * ROS funciona de manera independiente a Matlab o Python, los scripts desarrollados en estos programas solo nos permiten comunicarnos con los nodos.
 * Eeeeehhhh...

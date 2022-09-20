@@ -83,6 +83,5 @@ Tortuga después de oprimir la tecla ESPACIO nuevamente:
 
 
 ## Conclusiones
-* ROS funciona de manera independiente a Matlab o Python, los scripts desarrollados en estos programas solo nos permiten comunicarnos con los nodos.
-* Eeeeehhhh...
-* Aiuda :''v
+* ROS funciona de manera independiente a Matlab o Python, los scripts desarrollados en estos programas solo nos permiten comunicarnos con los diferentes nodos que se encuentren en ejecución.
+* Analizar el ejemplo de *turtle_sim* nos ayuda a familiarizarnos con las poses que puede adoptar un eslabon dentro de un brazo manipulador robotico.
